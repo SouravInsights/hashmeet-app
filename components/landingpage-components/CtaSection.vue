@@ -1,7 +1,7 @@
 <template>
   <c-stack 
-    :mx="['20px', '40px', '120px', '140px']" 
-    :px="['20px', '40px', '60px', '60px']"
+    :mx="['20px', '40px', '60px', '60px']" 
+    :px="['20px', '40px', '120px', '120px']"
     :py="['20px', '20px', '40px', '40px']"
     bg="#1B51F2" 
     border= "1px solid #F2F4F8"
