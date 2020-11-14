@@ -2,7 +2,7 @@
   <c-box
     mx="auto"
     my="20px"
-    w="332px"
+    :w="['20rem', '20rem', '20rem', '20rem']"
     background="#FFFFFF"
     border="1px solid #DED9D9"
     box-shadow="0px 20px 40px rgba(134, 132, 137, 0.2)"

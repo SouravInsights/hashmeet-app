@@ -190,6 +190,15 @@
           </div>
         </Modal>
       </c-box>
+
+      
+      <c-box as="section">
+        <CtaSection />
+      </c-box>
+      
+      <c-box as="section">
+        <Footer />
+      </c-box>
     </CBox>
   </div>
 </template>
