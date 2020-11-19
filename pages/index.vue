@@ -276,10 +276,18 @@ export default {
     }
   },
   methods: {
+    async signin() {
+      // Normal validation.
+      //if(!this.email || !this.password) return;
+      // Let's create the user.
+      await this.$store.dispatch('auth/signin', {
+        "email": "taditdash@yopmail.com",
+        "password": "password1"
+      })
+    },
     async registerUser() {
       // Normal validation.
       if(!this.email || !this.password) return;
-
       // Let's create the user.
       await this.$store.dispatch('user/create_user', {
         email: this.email,
