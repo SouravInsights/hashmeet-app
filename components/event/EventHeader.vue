@@ -4,7 +4,11 @@
       <c-text font-size="16px" font-weight="500" line-height="1" text-transform="uppercase">{{ dateTime }}</c-text>
       <c-heading font-size="45px" font-weight="extrabold" line-height="1" color="#232020">{{ title }}</c-heading>
       <c-stack direction="row">
-        <c-tag rounded="full" v-for="item in tags" :key="item">{{ item }}</c-tag>
+        <c-tag variant-color="cyan" rounded="full" :size="['sm', 'sm', 'md', 'lg']" v-for="item in tags" :key="item">
+          <c-tag-label>
+            {{ item }}
+          </c-tag-label>
+        </c-tag>
       </c-stack>
     </c-stack>
     <c-stack mt="30px" direction="row" spacing="30px">

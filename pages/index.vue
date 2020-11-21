@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <CBox :px="['60px', '60px', '160px', '160px']">
+    <CBox :px="['20px', '60px', '160px', '160px']">
       <HeroSection />
       <c-box as="section" my="100px" justify="center">
         <c-stack direction="column" spacing="2">

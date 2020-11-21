@@ -1,5 +1,5 @@
 <template>
-  <c-box as="section" pb="12">
+  <c-box as="section">
     <c-grid
       :max-w="['90%', '90%', '80rem']"
       :pt="[10, 10, 24]"
