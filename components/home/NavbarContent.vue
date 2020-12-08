@@ -13,8 +13,20 @@
         :d="['none', 'none', 'inline-flex']"
         variant="link"
         color="inherit"
+        @click="signin"
       >
         Sign in
+      </c-button>
+      <c-button
+        font-size="18px"
+        font-weight="500"
+        mr="5"
+        :d="['none', 'none', 'inline-flex']"
+        variant="link"
+        color="inherit"
+        @click="signup"
+      >
+        Sign up
       </c-button>
     </c-flex>
   </c-stack>
@@ -23,5 +35,9 @@
 <script>
 export default {
   inheritAttrs: false,
+  props: {
+      signin: Function,
+      signup: Function,
+  }
 };
 </script>
